@@ -1,0 +1,10 @@
+name = "aeo-check-api"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+# Uncomment to restrict origins in production
+# [vars]
+# ALLOWED_ORIGIN = "https://your-pages-domain.pages.dev"
